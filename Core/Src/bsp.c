@@ -29,8 +29,17 @@ void Set_USC(uint8_t b) {
 	if(b) {
 		MX_TIM1_Init();
 		Set_USC_Freq(usc_freq);
+		// EMC improvement: soft start with gradual duty cycle ramp-up
+		// Reduces inrush current and transient emissions
+		__HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 0);
 		HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
 		HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_1);
+		// Gradual ramp from 0 to 50% duty cycle
+		for(uint16_t i = 0; i <= (usc_freq >> 1); i += 10) {
+			__HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, i);
+			HAL_Delay(1);
+		}
+		__HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, usc_freq >> 1);
 	}
 	else {
 //		__HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 0);
