@@ -245,8 +245,10 @@ void Task_Freq_Changer() {
 	const uint16_t ar_init = 381;
 //	const uint16_t ar_init = 492;
 //	const uint16_t ar_init = 532;
-	const uint16_t ar_max = ar_init + 10;
-	const uint16_t ar_min = ar_init - 10;
+	// EMC improvement: wider frequency spread (±5% instead of ±2.6%)
+	// This spreads harmonic energy across a wider bandwidth
+	const uint16_t ar_max = ar_init + 19;  // ~155.8kHz
+	const uint16_t ar_min = ar_init - 19;  // ~176.8kHz
 
 	switch(s_fchn) {
 		case TASK_FREQ_CHANGER_INIT:
