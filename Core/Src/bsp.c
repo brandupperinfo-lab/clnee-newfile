@@ -81,7 +81,7 @@ void Set_Hall_Power(uint8_t b) {
 }
 
 float Get_Temperature() {
-	adc_voltages[ADC_VAL_IDX_NTC];
+	return adc_voltages[ADC_VAL_IDX_NTC];
 }
 
 GPIO_PinState Read_Button() {
