@@ -1,3 +1,11 @@
+/*
+ * [미사용 코드 - 주석 처리]
+ * 이 파일은 USB HID 디스크립터 (NKRO 키보드, 코나미 조이스틱) 관련 코드로,
+ * 현재 프로젝트(초음파 세척기/UV 살균기)에서 사용하지 않습니다.
+ */
+
+#if 0  // 미사용 코드 시작
+
 #pragma once
 
 #include "ACIO.h"
@@ -54,3 +62,5 @@
 			HID_INPUT(HID_CONSTANT | HID_VARIABLE | HID_ABSOLUTE), \
 		HID_COLLECTION_END, \
 	HID_COLLECTION_END
+
+#endif  // 미사용 코드 끝

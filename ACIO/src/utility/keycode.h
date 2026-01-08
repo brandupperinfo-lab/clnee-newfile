@@ -1,3 +1,10 @@
+/*
+ * [미사용 코드 - 주석 처리]
+ * 이 파일은 USB 키보드 관련 코드로, 현재 프로젝트(초음파 세척기/UV 살균기)에서 사용하지 않습니다.
+ */
+
+#if 0  // 미사용 코드 시작
+
 #pragma once
 
 #include "ACIO.h"
@@ -291,3 +298,5 @@ typedef struct {
 #define NKRO_COMPOSE			((NKRO_Key) {KEY_COMPOSE	>> 3, (0x01 << (KEY_COMPOSE		 & 0x07)) })
 #define NKRO_POWER				((NKRO_Key) {KEY_POWER		>> 3, (0x01 << (KEY_POWER		 & 0x07)) })
 #define NKRO_KPEQUAL			((NKRO_Key) {KEY_KPEQUAL	>> 3, (0x01 << (KEY_KPEQUAL		 & 0x07)) })
+
+#endif  // 미사용 코드 끝

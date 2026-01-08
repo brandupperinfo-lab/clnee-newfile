@@ -1,3 +1,11 @@
+/*
+ * [미사용 코드 - 주석 처리]
+ * 이 파일은 EdgeInputController 관련 코드로,
+ * 현재 프로젝트에서는 NthInputController만 사용하므로 이 코드는 사용하지 않습니다.
+ */
+
+#if 0  // 미사용 코드 시작
+
 #include "EdgeInputController.h"
 
 void ACIO_EdgeInputController_SetConfig(EdgeInputController_HandleTypeDef* handle, EdgeInputController_ConfigTypeDef* config) {
@@ -77,3 +85,5 @@ void ACIO_EdgeInputController_Update(EdgeInputController_HandleTypeDef* handle) 
         break;
     }
 }
+
+#endif  // 미사용 코드 끝
