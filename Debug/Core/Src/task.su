@@ -1,0 +1,5 @@
+../Core/Src/task.c:23:6:Read_Inputs	8	static
+../Core/Src/task.c:29:6:Task_Charger	8	static
+../Core/Src/task.c:87:6:Task_Cleaner	8	static
+../Core/Src/task.c:217:6:Task_Power	8	static
+../Core/Src/task.c:244:6:Task_Freq_Changer	8	static

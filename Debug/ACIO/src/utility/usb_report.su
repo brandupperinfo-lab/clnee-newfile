@@ -1,0 +1,6 @@
+../ACIO/src/utility/usb_report.c:4:6:NKRO_Press_Modifier	0	static
+../ACIO/src/utility/usb_report.c:8:6:NKRO_Release_Modifier	0	static
+../ACIO/src/utility/usb_report.c:12:6:NKRO_Press_Key	8	static
+../ACIO/src/utility/usb_report.c:16:6:NKRO_Release_Key	8	static
+../ACIO/src/utility/usb_report.c:20:6:KONAMI_Joystick_Press_Button	0	static
+../ACIO/src/utility/usb_report.c:24:6:KONAMI_Joystick_Release_Button	0	static

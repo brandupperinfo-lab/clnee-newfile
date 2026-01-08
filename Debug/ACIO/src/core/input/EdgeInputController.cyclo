@@ -1,0 +1,4 @@
+../ACIO/src/core/input/EdgeInputController.c:3:6:ACIO_EdgeInputController_SetConfig	1
+../ACIO/src/core/input/EdgeInputController.c:7:6:ACIO_EdgeInputController_SetCallback	1
+../ACIO/src/core/input/EdgeInputController.c:11:6:ACIO_EdgeInputController_Init	1
+../ACIO/src/core/input/EdgeInputController.c:15:6:ACIO_EdgeInputController_Update	14

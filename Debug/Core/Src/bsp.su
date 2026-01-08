@@ -1,0 +1,15 @@
+../Core/Src/bsp.c:12:6:Set_Stat_LED	0	static
+../Core/Src/bsp.c:16:6:Set_Chrg_LED	0	static
+../Core/Src/bsp.c:20:6:Set_UV_C	8	static
+../Core/Src/bsp.c:24:6:Set_UV_IND	0	static
+../Core/Src/bsp.c:43:6:Set_Charge_Enable	8	static
+../Core/Src/bsp.c:48:6:Set_USC_Freq	0	static
+../Core/Src/bsp.c:28:6:Set_USC	8	static
+../Core/Src/bsp.c:53:6:Update_USC	8	static
+../Core/Src/bsp.c:74:6:Set_Hall_Power	8	static
+../Core/Src/bsp.c:83:7:Get_Temperature	0	static
+../Core/Src/bsp.c:87:15:Read_Button	8	static
+../Core/Src/bsp.c:91:15:Read_Hall	8	static
+../Core/Src/bsp.c:95:15:Read_VUSB	8	static
+../Core/Src/bsp.c:99:9:Read_Charge_Enable	0	static
+../Core/Src/bsp.c:103:6:Standby_Mode	8	static

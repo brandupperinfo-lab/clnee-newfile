@@ -1,0 +1,4 @@
+../ACIO/src/core/input/NthInputController.c:3:6:ACIO_NthInputController_SetConfig	1
+../ACIO/src/core/input/NthInputController.c:7:6:ACIO_NthInputController_SetCallback	1
+../ACIO/src/core/input/NthInputController.c:11:6:ACIO_NthInputController_Init	1
+../ACIO/src/core/input/NthInputController.c:16:6:ACIO_NthInputController_Update	27
